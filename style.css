@@ -1,0 +1,108 @@
+/* ESTILO GERAL*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: #fff;
+  height: 100vh;
+}
+.interface{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+}
+h2.titulo{
+  color: #000;
+  font-size: 28px;
+  text-align: center;
+}
+h2.porti{
+  text-align: center;
+}
+h3.topico{
+  font-size: 24;
+  text-align: center;
+}
+/*ESTILO DO CABEÇALHO*/
+header{
+  padding: 40px 4%;
+}
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a{
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+header nav ul{
+  list-style-type: none;
+}
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+}
+.bel-contato button{
+  padding: 10px 40px ;
+  font-size: 16;
+  font-weight: 600;
+  background-color: #9d18f2cb;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+/*ESTILO DO TOPO DO SITE*/
+section.topo-do-site{
+  padding: 40px 4%;
+}
+section.topo-do-site.flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.topo-do-site h1{
+  font-size: 34px;
+  font-weight: 700;
+}
+.topo-do-site.txt-topo h1 spam{
+  color: #6f06b3de;
+}
+.topo-do-site.txt-topo p{
+  margin: 20px 0;
+}
+section.sobre.flex{
+  align-items: center;
+  justify-content: center;
+}
+h3.topico{
+margin: 20px 0%;
+}
+p.parag{
+  padding: 10px 4%;
+  text-align: center;
+}
+
+/*ESTILO DO PORTIFÓLIO*/
+spam{
+  color: #6f06b3de;
+}
+section.portifolio{
+  padding: 60px 4%;
+}
+section img{
+  border-radius: 10px;
+}
+.img-port{
+  padding: 40 4%;
+}
+h2.cont1{
+  margin: 40px 2%;
+  text-align: center;
+}
