@@ -121,3 +121,28 @@ h2.cont1{
  flex-direction: row;
  margin-left: 30px;
 }
+.contat2 {
+    margin: 20px;
+  }
+  .formin {
+      max-width: 500px;
+      margin: auto;
+  }
+  .bel {
+      display: block;
+      margin-top: 10px;
+  }
+  .imp, .textin {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+  }
+  .botone {
+    padding: 10px 40px ;
+    font-size: 16;
+    font-weight: 600;
+    background-color: #9d18f2cb;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+  }
