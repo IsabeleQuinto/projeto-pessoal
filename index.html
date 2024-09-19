@@ -90,21 +90,34 @@
       <div class="contat1">
         <h2 class="cont1"> CONTATO</h2>
         <ul>
+            <div class="contat2">
+                <form class="formin" id="formContato">
+                    <label class="bel" for="nome">Nome:</label>
+                    <input class="imp" type="text" id="nome" name="nome" required><br><br>
+                    <label class="bel" for="email">Email:</label>
+                    <input class="imp" type="email" id="email" name="email" required><br><br>
+                    <label class="bel" for="mensagem">Mensagem:</label>
+                    <textarea class="textin" id="mensagem" name="mensagem" required></textarea><br><br>
+                    <button class="botone" type="submit">Enviar</button>
+                </form>
+                <div id="resultado"></div>
+                <script src="contato.js"></script>
+            </div>
           <div class="instagram">
-          <li class="links">
-            <img class="logo1" src="./src/img/insta.jpg" width="30px"><h4>isabelequinto</h4>
-          </li>
+            <li class="links">
+                <img class="logo1" src="./src/img/insta.jpg" width="30px"><h4>isabelequinto</h4>
+            </li>
           </div>
           <div class="email">
-          <li>
-            <img class="logo2" src="./src/img/email.jpg" width="40px" height="40px">
-            <h4 class="logo2">isabelequinto@gmail.com</h4>
-          </li>
+            <li>
+                <img class="logo2" src="./src/img/email.jpg" width="40px" height="40px">
+                <h4 class="logo2">isabelequinto@gmail.com</h4>
+            </li>
           </div>
           <div class="whats">
-          <li>
-            <img class="logo3" src="./src/img/what.jpg" width="30px" height="30px"><h4 class="logo3">(85) 98591-0679</h4>
-          </li>
+            <li>
+                <img class="logo3" src="./src/img/what.jpg" width="30px" height="30px"><h4 class="logo3">(85) 98591-0679</h4>
+            </li>
           </div>
         </ul>
       </div>
